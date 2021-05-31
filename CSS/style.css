@@ -1,0 +1,202 @@
+body {
+width: 90%;
+margin-left: auto;
+margin-right: auto;
+ background-color: #F8F9F9;
+} 
+
+
+iframe {
+  width: 300px;
+  height: 300px;
+}
+
+
+.logo {
+	float: left;
+	padding: 0px;
+	margin-top:10px;
+	width: 80px;
+	height: 80px;
+border-radius: 50%;
+  filter: grayscale(100%);
+}
+
+.img {
+  max-width: 100%;
+  height: auto;
+}
+
+div {
+  padding: 8px;
+}
+
+.header {
+  height:100px;
+  padding: 0px;
+  margin: 0px;
+}
+
+header>h1 {
+   font-size: 80px;
+   color:black;
+text-transform: uppercase;
+ 
+}
+
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #E74C3C;
+}
+
+p {
+  text-indent: 60px;
+  text-align: justify;
+  letter-spacing: 3px;
+text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #943126;
+}
+
+.navbar-header
+{
+  margin: 0px;
+  padding-bottom: 15px;
+  padding-right: 80px;
+  padding-left: 0px;
+  height: 60px;
+  
+}
+
+
+.nav  {
+
+	height:20px;
+	padding-right: 80px;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-size: 15px;
+}
+
+.nav-item {
+	border-right: 1px solid black;
+	padding-right: 10px;
+	padding-left: 10px;  
+}
+
+.nav-item:last-child{
+    border: none;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.nav-link {
+   padding: 0px;
+}
+
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: none;
+  border-top: 3px solid black;
+}
+
+.container-fluid {
+  padding: 0px;
+}
+
+.row.display-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.border {
+  border : 3px solid black !important;
+}
+
+.center {
+	text-align: center;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+
+.full-width {
+	width: 100%;
+}
+
+.full-height {
+    height: 100%;
+}
+
+.vcenter {
+  display: flex;
+/*  justify-content: center;*/
+  align-items: center;
+}
+
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #EC7063;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: #FECFC0;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
